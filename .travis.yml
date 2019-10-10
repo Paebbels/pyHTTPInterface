@@ -1,6 +1,6 @@
 language: python
 
-# install: skip
+install: skip
 
 if: tag IS present
 
@@ -13,5 +13,5 @@ deploy:
   password: $PYPI_TOKEN
   distributions: "sdist bdist_wheel"
   skip_existing: true
-#   on:
-#     tags: true
+  on:
+    tags: true
