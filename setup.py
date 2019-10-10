@@ -42,7 +42,7 @@ with open("README.md", "r") as file:
 	long_description = file.read()
 
 setuptools.setup(
-	name="pyExceptions",
+	name="pyHTTPInterface",
 	version="0.1.0",
 	author="Patrick Lehmann",
 	author_email="Paebbels@gmail.com",
