@@ -37,9 +37,10 @@
 # ============================================================================
 #
 from textwrap import dedent
-from typing import Dict
+from typing   import Dict
 
-from lib.pyGenericPath.URL import URL
+from pyGenericPath.URL import URL
+
 from . import HTTPMethods, HTTPVersion
 
 

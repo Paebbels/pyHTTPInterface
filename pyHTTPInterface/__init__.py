@@ -44,8 +44,7 @@ __api__ = [
 	"ContentKinds",
 	"ReturnCodes",
 	"Request",
-	"Response",
-	"HTTPRequestHandler"
+	"Response"
 ]
 __all__ = __api__
 
@@ -82,4 +81,3 @@ class ReturnCodes(Flags):
 
 from .Request   import Request
 from .Response  import Response
-from .HTTPRequestHandler   import HTTPRequestHandler

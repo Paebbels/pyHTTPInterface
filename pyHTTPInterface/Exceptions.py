@@ -36,7 +36,7 @@
 # limitations under the License.
 # ============================================================================
 #
-from lib.pyExceptions import ExceptionBase
+from pyExceptions import ExceptionBase
 
 
 class HTTPInterfaceException(ExceptionBase):
