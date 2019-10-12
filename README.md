@@ -9,7 +9,7 @@
 
 # pyHTTPInterface
 
-Description
+An interface for HTTP Requests and Responses.
 
 
 ## Contributors:

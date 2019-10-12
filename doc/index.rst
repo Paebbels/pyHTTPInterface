@@ -1,7 +1,7 @@
 pyHTTPInterface Documentation
 #############################
 
-An exception base-class to derive more powerful exceptions.
+An interface for HTTP Requests and Responses.
 
 
 Installation/Updates
@@ -32,11 +32,13 @@ Updating using PIP
 
 
 .. toctree::
-   :caption: Exception Classes:
+   :caption: Interface Classes
    :hidden:
 
-   ExecptionBase
-   Predefined
+   Enumerations
+   Exceptions
+   Request
+   Response
 
 .. toctree::
    :caption: Appendix
