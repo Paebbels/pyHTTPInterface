@@ -11,9 +11,9 @@
 # |_|    |___/
 #
 # =============================================================================
-# Authors:             Patrick Lehmann
+# Authors:            Patrick Lehmann
 #
-# Package installer:   An interface for HTTP Requests and Responses.
+# Package installer:  An interface for HTTP Requests and Responses.
 #
 #
 # License:
@@ -31,6 +31,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
 # ============================================================================
 #
 import setuptools
@@ -50,7 +52,7 @@ rtd_url =     "https://" + projectName + ".readthedocs.io/en/latest/"
 
 setuptools.setup(
 	name=projectName,
-	version="0.1.1",
+	version="0.1.2",
 
 	author="Patrick Lehmann",
 	author_email="Paebbels@gmail.com",
