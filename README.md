@@ -1,18 +1,26 @@
-![PyPI - License](https://img.shields.io/pypi/l/pyExceptions)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Paebbels/pyExceptions) 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Paebbels/pyExceptions)  
-![PyPI](https://img.shields.io/pypi/v/pyExceptions)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyExceptions)](https://pypi.org/project/pyExceptions/)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/pyExceptions)
-![PyPI - Status](https://img.shields.io/pypi/status/pyExceptions)
+![PyPI - License](https://img.shields.io/pypi/l/pyHTTPInterface)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Paebbels/pyHTTPInterface) 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Paebbels/pyHTTPInterface)
+[![Documentation Status](https://readthedocs.org/projects/pyhttpinterface/badge/?version=latest)](https://pyhttpinterface.readthedocs.io/en/latest/?badge=latest)      
+[![PyPI](https://img.shields.io/pypi/v/pyHTTPInterface)](https://pypi.org/project/pyHTTPInterface/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyHTTPInterface)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/pyHTTPInterface)
+![PyPI - Status](https://img.shields.io/pypi/status/pyHTTPInterface)
 
 # pyHTTPInterface
 
 Description
 
 
-# List of Authors and Contributors (in alphabetical order)
+## Contributors:
 
-Contributor       | Contact E-Mail
-------------------|------------------------------------------------------------
-Lehmann, Patrick  | Patrick.Lehmann@plc2.de; Paebbels@gmail.com
+* [Patrick Lehmann](https://github.com/Paebbels) (Maintainer)
+
+
+## License
+
+This library is licensed under [Apache License 2.0](LICENSE.md)
+
+-------------------------
+
+SPDX-License-Identifier: Apache-2.0
