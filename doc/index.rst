@@ -1,26 +1,28 @@
+.. code-block::
+
+                 _   _ _____ _____ ____ ___       _             __
+     _ __  _   _| | | |_   _|_   _|  _ \_ _|_ __ | |_ ___ _ __ / _| __ _  ___ ___
+    | '_ \| | | | |_| | | |   | | | |_) | || '_ \| __/ _ \ '__| |_ / _` |/ __/ _ \
+    | |_) | |_| |  _  | | |   | | |  __/| || | | | ||  __/ |  |  _| (_| | (_|  __/
+    | .__/ \__, |_| |_| |_|   |_| |_|  |___|_| |_|\__\___|_|  |_|  \__,_|\___\___|
+    |_|    |___/
+
 pyHTTPInterface Documentation
 #############################
 
 An interface for HTTP Requests and Responses.
 
 
-Installation/Updates
-********************
+Contributors
+************
 
-Installation using PIP
-======================
-
-.. code-block:: bash
-
-   pip3 install pyHTTPInterface
+* `Patrick Lehmann <https://github.com/Paebbels>`_ (Maintainer)
 
 
-Updating using PIP
-==================
+License
+*******
 
-.. code-block:: bash
-
-   pip3 install -U pyHTTPInterface
+This library is licensed under **Apache License 2.0**.
 
 ------------------------------------
 
@@ -30,6 +32,12 @@ Updating using PIP
 
    This document was generated on |docdate|.
 
+.. toctree::
+   :caption: Overview
+   :hidden:
+
+   Installation
+   Dependencies
 
 .. toctree::
    :caption: Interface Classes
@@ -44,5 +52,8 @@ Updating using PIP
    :caption: Appendix
    :hidden:
 
+   License
    genindex
+
+.. #
    py-modindex

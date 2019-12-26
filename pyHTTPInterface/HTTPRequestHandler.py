@@ -9,9 +9,9 @@
 # | .__/ \__, |_| |_| |_|   |_| |_|  |___|_| |_|\__\___|_|  |_|  \__,_|\___\___|
 # |_|    |___/
 # =============================================================================
-# Authors:            Patrick Lehmann
+# Authors:						Patrick Lehmann
 #
-# Python package:     An interface for HTTP Responses.
+# Python package:	    An interface for HTTP Requests and Responses.
 #
 # Description:
 # ------------------------------------
@@ -32,23 +32,11 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
-# SPDX-License-Identifier: Apache-2.0
 # ============================================================================
 #
-from typing import Dict
 
+class HTTPRequestHandler:
 
-class Response():
-	_headers :          Dict =  None
-	_contentKind :      str =   None
-	_contentEncoding :  str =   None
-	_contentType :      str =   None
-	_content =                  None
-
-
-class JSONResponse(Response):
-
-
-	def __init__(self):
-		super().__init__()
+	@classmethod
+	def Handle(cls, request):
+		pass
